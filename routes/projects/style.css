@@ -131,7 +131,7 @@ main section {
 .projects a img,
 .projects a h3,
 .projects a p {
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .projects a img {
@@ -145,6 +145,9 @@ main section {
 .projects a p {
   font-size: 1.125rem;
   font-weight: bold;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 810px) {
